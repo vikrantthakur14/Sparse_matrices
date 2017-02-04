@@ -15,6 +15,8 @@ Throughout the project the Compressed Row Storage (CRS) scheme was used to store
 5.1.Solving 'n x n' sparse linear system of equations by LU Decomposition (Direct Method)                                              
 5.2.Solving 'n x n' sparse linear system of equations by LUIR (LU Decomposition Iterative Refinement)                        
 
+These algorithms can be used very efficiently when dealing with matrices having higher sparsity which may help reduce both space and time complexities. All the above mentioned methods for solving sparse linear system of algebraic equations have been tested for up to 15 x 15 systems. These algorithms run quite efficiently for the tested systems.
+
 # Following citations by Professor R.C. Mittal were used in developing these algorithms:
 Application of the Cramer rule in the solution of sparse systems of linear algebraic equations:
 http://www.sciencedirect.com/science/article/pii/S0377042700005720
